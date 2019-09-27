@@ -3,5 +3,9 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.13.1"
+  },
+  "dependencies": {
+    "@types/mocha": "^5.2.7",
+    "mocha": "^6.2.0"
   }
 }
