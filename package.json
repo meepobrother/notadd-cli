@@ -4,7 +4,8 @@
 	"scripts": {
 		"compiler": "./node_modules/.bin/tsc -p tsconfig.json -w",
 		"clear": "ts-node tools/clear.ts",
-		"commit": "git add . && git-cz"
+		"commit": "git add . && git-cz",
+		"docs": "cd design/ && lite-server design/index.html"
 	},
 	"devDependencies": {
 		"@types/mocha": "^5.2.7",
