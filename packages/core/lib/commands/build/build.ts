@@ -1,11 +1,14 @@
 import webpack, { Configuration, Compiler, Stats } from 'webpack';
-export class Build {
+import { Command } from '../common';
+/**
+ * 构建目标代码
+ */
+export class Build extends Command {
     compiler: Compiler;
-
     constructor() {
+        super();
         this.compiler = webpack()
     }
-
     /**
      * 运行
      */
@@ -14,7 +17,6 @@ export class Build {
             // run
         });
     }
-
     /**
      * watch
      */

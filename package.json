@@ -2,10 +2,13 @@
 	"name": "root",
 	"private": true,
 	"scripts": {
-		"compiler": "./node_modules/.bin/tsc -p tsconfig.json -w"
+		"compiler": "./node_modules/.bin/tsc -p tsconfig.json -w",
+		"clear": "ts-node tools/clear.ts",
+		"commit": "git add . && git-cz"
 	},
 	"devDependencies": {
 		"@types/mocha": "^5.2.7",
+		"@types/rimraf": "^2.0.2",
 		"@types/webpack": "^4.39.1",
 		"lerna": "^3.13.1",
 		"mocha": "^6.2.0",

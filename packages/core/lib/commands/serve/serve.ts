@@ -1,4 +1,7 @@
-import webpack, { Configuration, Compiler, Stats } from 'webpack';
+import webpack, { Compiler, Stats } from 'webpack';
+/**
+ * 编译并启动server
+ */
 export class Serve {
     compiler: Compiler;
 

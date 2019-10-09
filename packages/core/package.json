@@ -32,7 +32,8 @@
 	"dependencies": {
 		"@types/colors": "^1.2.1",
 		"@types/mocha": "^5.2.7",
-		"@types/webpack": "^4.39.1",
+        "@types/webpack": "^4.39.1",
+        "@types/rimraf": "^2.0.2",
 		"colors": "^1.4.0",
 		"commander": "^3.0.2",
 		"lerna": "^3.13.1",
