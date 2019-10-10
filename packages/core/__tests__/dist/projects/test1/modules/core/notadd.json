@@ -1,0 +1,8 @@
+{
+	"name": "@notadd/test1.core",
+	"version": "1.0.0",
+	"type": "module",
+	"env": "",
+	"deps": [],
+	"main": "lib"
+}
