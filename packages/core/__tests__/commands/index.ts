@@ -1,4 +1,5 @@
 import { Command, Option, Action } from '../../lib/decorators';
+                         
 @Command({
     name: 'demo',
     alias: `d`,
