@@ -37,6 +37,7 @@
 		"@types/redis": "^2.8.14",
 		"@types/rimraf": "^2.0.2",
 		"@types/webpack": "^4.39.1",
+		"@types/yargs": "^13.0.3",
 		"colors": "^1.4.0",
 		"commander": "^3.0.2",
 		"lerna": "^3.13.1",
@@ -48,6 +49,7 @@
 		"tsconfig-paths": "^3.9.0",
 		"typescript": "^3.6.3",
 		"webpack": "^4.41.0",
+		"yargs": "^14.2.0",
 		"yargs-parser": "^15.0.0"
 	}
 }
