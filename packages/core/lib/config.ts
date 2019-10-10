@@ -11,9 +11,9 @@ export class Config {
      */
     version: string;
     /**
-     * 类型 module模块 project项目 application 应用 service 服务
+     * 类型 module模块 project项目 workspace 应用 service 服务
      */
-    type: 'module' | 'project' | 'application' | 'service';
+    type: 'module' | 'project' | 'workspace' | 'service';
     /**
      * 环境变量
      */

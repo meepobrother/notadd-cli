@@ -1,0 +1,8 @@
+{
+	"name": "notadd",
+	"version": "1.0.0",
+	"type": "workspace",
+	"env": "",
+	"deps": [],
+	"main": "projects"
+}
